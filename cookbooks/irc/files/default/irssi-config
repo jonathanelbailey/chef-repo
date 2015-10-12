@@ -1,0 +1,25 @@
+servers = (
+	{
+		address = 'irc.freenode.net';
+		chatnet = 'freenode';
+		port = '6667';
+		autoconnect = 'Yes'
+	}
+);
+
+chatnets = { Freenode = { type = 'IRC'; }; };
+
+settings = {
+	core = {
+		real_name = 'Jonathan Bailey';
+		nick = 'Jonathan';
+		user_name = 'jebaile7964';
+	};
+	'fe-text' = { actlist_sort = 'refnum' };
+};
+
+channels = (
+	{ name = '#learnchef'; chatnet = 'Freenode'; autojoin = 'Yes' },
+	{ name = '#chef'; chatnet = 'Freenode'; autojoin = 'Yes'; },
+	{ name = '##tdi'; chatnet = 'Freenode'; autojoin = 'Yes'; }
+);
