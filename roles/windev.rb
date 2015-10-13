@@ -8,7 +8,8 @@ run_list(
 	'recipe[notepadplusplus_2]',
 	'recipe[chrome]',
 	'recipe[virtualbox]',
-	'recipe[chocolatey]'
+	'recipe[chocolatey]',
+	'recipe[vagrant]'
 )
 default_attributes(
 
